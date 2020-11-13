@@ -1,0 +1,15 @@
+.root {
+    font-size: 14px;
+}
+
+.name {
+    color: #666;
+}
+
+.length {
+    color: #afafaf;
+}
+
+.create-date {
+    text-align: right;
+}

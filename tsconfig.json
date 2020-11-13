@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "jsx": "preserve",
+        "allowJs": false,
+        "target": "ES2015",
+        "module": "CommonJS",
+        "esModuleInterop": true,
+        "strict": true,
+        "noImplicitAny": false,
+        "sourceMap": true,
+        "noEmit": false,
+        "declaration": true,
+        "skipLibCheck": true,
+        "moduleResolution": "node",
+        "baseUrl": ".",
+        "rootDir": "./src",
+        "outDir": "./dist",
+        "paths": {
+            "webpack": ["./node_modules/@types/webpack/index.d.ts"]
+        }
+    },
+    "include": ["src"]
+}

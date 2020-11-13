@@ -1,0 +1,58 @@
+{
+  "name": "class-names-loader",
+  "version": "1.0.0",
+  "description": "Webpack loader to transform style into classNames bindings",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest --coverage",
+    "lint": "eslint src",
+    "ci": "npm run lint && npm run build && npm run test",
+    "prepublishOnly": "npm run ci",
+    "release": "standard-version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ecomfe/class-names-loader.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ecomfe/class-names-loader/issues"
+  },
+  "homepage": "https://github.com/ecomfe/class-names-loader#readme",
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/eslint-parser": "^7.12.1",
+    "@babel/eslint-plugin": "^7.12.1",
+    "@ecomfe/eslint-config": "^6.0.1",
+    "@types/jest": "^26.0.15",
+    "@types/loader-utils": "^2.0.1",
+    "@types/webpack": "^4.41.25",
+    "@typescript-eslint/eslint-plugin": "^4.7.0",
+    "@typescript-eslint/parser": "^4.7.0",
+    "classnames": "^2.2.6",
+    "css-loader": "^5.0.1",
+    "eslint": "^7.13.0",
+    "eslint-plugin-jest": "^24.1.0",
+    "husky": "^4.3.0",
+    "jest": "^26.6.3",
+    "standard-version": "^9.0.0",
+    "style-loader": "^2.0.0",
+    "ts-jest": "^26.4.4",
+    "typescript": "^4.0.5",
+    "webpack": "^5.4.0"
+  },
+  "dependencies": {
+    "loader-utils": "^2.0.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run ci"
+    }
+  }
+}
