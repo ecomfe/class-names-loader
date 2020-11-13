@@ -22,6 +22,21 @@ We will keep active maintain.
 npm install -D class-names-loader
 ```
 
+## Auto binding
+
+This loader is to bind a CSS modules enabled `style-loader` output into a `classnames` compatible function, received class names are mapped to CSS modules transformed ones:
+
+```js
+import c from './index.css';
+
+// May renders as `<div class="title-0f2bd">
+<div className={c('title')} />
+```
+
+This function is also a mapping object from raw class names to transformed ones, so `c.title` is identical to `c('title')`.
+
+Also it behaves like `classnames` and accept more complex arguments like `c('title', {emphasis: props.isHeading}, props.className)`. Any class names not in CSS file are rended as is, `c('some-class')` returns `"some-class"`.
+
 ## Usage
 
 A traditional webpack configuration looks like:
@@ -83,6 +98,6 @@ This is especially useful when you create a custom build tool and want to encaps
 }
 ```
 
-### Named import
+#### Named import
 
 If you have `namedExport` option enabled in `style-loader`, you should also enable `namedImport` option to make it compatible.
