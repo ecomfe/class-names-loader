@@ -1,5 +1,9 @@
 # class-names-loader
 
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/ecomfe/class-names-loader/Node.js%20CI?style=flat-square)
+![Coveralls github](https://img.shields.io/coveralls/github/ecomfe/class-names-loader?style=flat-square)
+![npm](https://img.shields.io/npm/v/class-names-loader?style=flat-square)
+
 Webpack loader to transform style into classNames bindings.
 
 Inspired by [itsmepetrov/classnames-loader](https://github.com/itsmepetrov/classnames-loader) and have a total written to introduce features and breaking changes like:
