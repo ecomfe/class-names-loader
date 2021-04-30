@@ -1,6 +1,6 @@
 {
   "name": "@ecomfe/class-names-loader",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Webpack loader to transform style into classNames bindings",
   "main": "dist/index.js",
   "publishConfig": {
