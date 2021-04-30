@@ -6,20 +6,16 @@
 /*!*************************************************************************************************!*\
   !*** ../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!./fixtures/test.css ***!
   \*************************************************************************************************/
-/*! namespace exports */
-/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__, __webpack_require__.n, __webpack_exports__, __webpack_require__.r, module.id, __webpack_require__.d, __webpack_require__.*, module */
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "../../node_modules/css-loader/dist/runtime/api.js");
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
 // Imports
-;
+
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
 ___CSS_LOADER_EXPORT___.push([module.id, "._29yAQQIP0_Z1RByUcgkZaK {\n    font-size: 14px;\n}\n\n._3FS-25gDhbISYqLrzQ6mlR {\n    color: #666;\n}\n\n.EYlFrNidaHfj1LgrmuQ9d {\n    color: #afafaf;\n}\n\n._2DqYnok0t2kM4wpMSQZLPD {\n    text-align: right;\n}\n", ""]);
@@ -39,9 +35,6 @@ ___CSS_LOADER_EXPORT___.locals = {
 /*!*********************************************************!*\
   !*** ../../node_modules/css-loader/dist/runtime/api.js ***!
   \*********************************************************/
-/*! unknown exports (runtime-defined) */
-/*! runtime requirements: module */
-/*! CommonJS bailout: module.exports is used directly at 9:0-14 */
 /***/ ((module) => {
 
 
@@ -64,15 +57,15 @@ module.exports = function (cssWithMappingToString) {
       }
 
       return content;
-    }).join('');
+    }).join("");
   }; // import a list of modules into the list
   // eslint-disable-next-line func-names
 
 
   list.i = function (modules, mediaQuery, dedupe) {
-    if (typeof modules === 'string') {
+    if (typeof modules === "string") {
       // eslint-disable-next-line no-param-reassign
-      modules = [[null, modules, '']];
+      modules = [[null, modules, ""]];
     }
 
     var alreadyImportedModules = {};
@@ -117,20 +110,16 @@ module.exports = function (cssWithMappingToString) {
 /*!*************************************************************************************************************************************************************************!*\
   !*** ../../node_modules/style-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!./fixtures/test.css ***!
   \*************************************************************************************************************************************************************************/
-/*! namespace exports */
-/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__, __webpack_require__.n, __webpack_exports__, __webpack_require__.r, __webpack_require__.d, __webpack_require__.* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
 /* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_0_use_2_test_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!./test.css */ "../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!./fixtures/test.css");
-;
+
             
 
 var options = {};
@@ -150,9 +139,6 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 /*!********************************************************************************!*\
   !*** ../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js ***!
   \********************************************************************************/
-/*! unknown exports (runtime-defined) */
-/*! runtime requirements: module, __webpack_require__.nc, __webpack_require__.* */
-/*! CommonJS bailout: module.exports is used directly at 230:0-14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 
@@ -431,53 +417,47 @@ module.exports = function (list, options) {
 /*!**********************************!*\
   !*** ./customClassNames/bind.js ***!
   \**********************************/
-/*! namespace exports */
-/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_exports__, __webpack_require__.r, __webpack_require__.d, __webpack_require__.* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (() => 'custom classNames/bind');
 
 
 /***/ }),
 
-/***/ "./fixtures/test.css":
-/*!***************************!*\
-  !*** ./fixtures/test.css ***!
-  \***************************/
-/*! namespace exports */
-/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__, __webpack_exports__, __webpack_require__.r, __webpack_require__.d, __webpack_require__.* */
+/***/ "../assign.js":
+/*!********************!*\
+  !*** ../assign.js ***!
+  \********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */   "default": () => (/* binding */ assignLocals)
 /* harmony export */ });
-/* harmony import */ var _customClassNames_bind__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../customClassNames/bind */ "./customClassNames/bind.js");
-/* harmony import */ var _node_modules_style_loader_dist_cjs_js_ruleSet_1_rules_0_use_1_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_0_use_2_test_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../node_modules/style-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!../../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!./test.css */ "../../node_modules/style-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!./fixtures/test.css");
+/* eslint-disable no-var */
+var hasOwn = Object.prototype.hasOwnProperty;
 
-        // class-names-loader generated code for /Users/otakustay/Develop/class-names-loader/src/__tests__/fixtures/test.css
-        ;
-        
-
-        const hasOwn = Object.prototype.hasOwnProperty;
-
-        const css = _customClassNames_bind__WEBPACK_IMPORTED_MODULE_0__.default.bind(_node_modules_style_loader_dist_cjs_js_ruleSet_1_rules_0_use_1_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_0_use_2_test_css__WEBPACK_IMPORTED_MODULE_1__.default);
-        for (var style in _node_modules_style_loader_dist_cjs_js_ruleSet_1_rules_0_use_1_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_0_use_2_test_css__WEBPACK_IMPORTED_MODULE_1__.default) {
-            if (hasOwn.call(_node_modules_style_loader_dist_cjs_js_ruleSet_1_rules_0_use_1_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_0_use_2_test_css__WEBPACK_IMPORTED_MODULE_1__.default, style)) {
-                Object.defineProperty(css, style, {value: _node_modules_style_loader_dist_cjs_js_ruleSet_1_rules_0_use_1_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_0_use_2_test_css__WEBPACK_IMPORTED_MODULE_1__.default[style]});
+function assignLocals(locals, css) {
+    for (var style in locals) {
+        if (hasOwn.call(locals, style)) {
+            try {
+                Object.defineProperty(css, style, {value: locals[style]});
+            }
+            catch (ex) {
+                console.warn(
+                    'Unable to assign class name "' + style + '" to function, '
+                    + 'change your class name or avoid use .' + style + ' from exported object of stylesheets. '
+                    + 'See https://github.com/ecomfe/class-names-loader/wiki/Unsafe-class-names for detail.'
+                );
             }
         }
+    }
+}
 
-        /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (css);
-    
 
 /***/ })
 
@@ -489,8 +469,9 @@ __webpack_require__.r(__webpack_exports__);
 /******/ 	// The require function
 /******/ 	function __webpack_require__(moduleId) {
 /******/ 		// Check if module is in cache
-/******/ 		if(__webpack_module_cache__[moduleId]) {
-/******/ 			return __webpack_module_cache__[moduleId].exports;
+/******/ 		var cachedModule = __webpack_module_cache__[moduleId];
+/******/ 		if (cachedModule !== undefined) {
+/******/ 			return cachedModule.exports;
 /******/ 		}
 /******/ 		// Create a new module (and put it into the cache)
 /******/ 		var module = __webpack_module_cache__[moduleId] = {
@@ -512,8 +493,8 @@ __webpack_require__.r(__webpack_exports__);
 /******/ 		// getDefaultExport function for compatibility with non-harmony modules
 /******/ 		__webpack_require__.n = (module) => {
 /******/ 			var getter = module && module.__esModule ?
-/******/ 				() => module['default'] :
-/******/ 				() => module;
+/******/ 				() => (module['default']) :
+/******/ 				() => (module);
 /******/ 			__webpack_require__.d(getter, { a: getter });
 /******/ 			return getter;
 /******/ 		};
@@ -533,7 +514,7 @@ __webpack_require__.r(__webpack_exports__);
 /******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
-/******/ 		__webpack_require__.o = (obj, prop) => Object.prototype.hasOwnProperty.call(obj, prop)
+/******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/make namespace object */
@@ -548,9 +529,31 @@ __webpack_require__.r(__webpack_exports__);
 /******/ 	})();
 /******/ 	
 /************************************************************************/
-/******/ 	// startup
-/******/ 	// Load entry module
-/******/ 	__webpack_require__("./fixtures/test.css");
-/******/ 	// This entry module used 'exports' so it can't be inlined
+var __webpack_exports__ = {};
+// This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
+(() => {
+/*!***************************!*\
+  !*** ./fixtures/test.css ***!
+  \***************************/
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _customClassNames_bind__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../customClassNames/bind */ "./customClassNames/bind.js");
+/* harmony import */ var _node_modules_style_loader_dist_cjs_js_ruleSet_1_rules_0_use_1_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_0_use_2_test_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../node_modules/style-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!../../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!./test.css */ "../../node_modules/style-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!./fixtures/test.css");
+/* harmony import */ var _assign_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../assign.js */ "../assign.js");
+
+        // class-names-loader generated code for /Users/otakustay/Develop/class-names-loader/src/__tests__/fixtures/test.css
+        
+        
+        
+
+        var css = _customClassNames_bind__WEBPACK_IMPORTED_MODULE_0__.default.bind(_node_modules_style_loader_dist_cjs_js_ruleSet_1_rules_0_use_1_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_0_use_2_test_css__WEBPACK_IMPORTED_MODULE_1__.default);
+        (0,_assign_js__WEBPACK_IMPORTED_MODULE_2__.default)(_node_modules_style_loader_dist_cjs_js_ruleSet_1_rules_0_use_1_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_0_use_2_test_css__WEBPACK_IMPORTED_MODULE_1__.default, css);
+
+        /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (css);
+    
+})();
+
 /******/ })()
 ;

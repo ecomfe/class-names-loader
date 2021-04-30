@@ -30,8 +30,11 @@ const classNamesLoader: loader.Loader = function classNamesLoader(source, map) {
 classNamesLoader.pitch = function classNamesLoaderPitch(remainingRequest) {
     const options = getOptions(this);
     const dependency = resolveClassNamesBind(options.classNamesModule);
+    const assignModule = loaderUtils.stringifyRequest(
+        this,
+        `!${path.join(__dirname, 'assign.js')}`
+    );
     this.cacheable();
-    this.addDependency(dependency);
 
     const remaining = loaderUtils.stringifyRequest(this, '!!' + remainingRequest);
 
@@ -39,15 +42,10 @@ classNamesLoader.pitch = function classNamesLoaderPitch(remainingRequest) {
         // class-names-loader generated code for ${this.resourcePath}
         import classNames from ${loaderUtils.stringifyRequest(this, '!' + dependency)};
         import ${options.namedImport ? '* as locals' : 'locals'} from ${remaining};
+        import assign from ${assignModule};
 
-        const hasOwn = Object.prototype.hasOwnProperty;
-
-        const css = classNames.bind(locals);
-        for (var style in locals) {
-            if (hasOwn.call(locals, style)) {
-                Object.defineProperty(css, style, {value: locals[style]});
-            }
-        }
+        var css = classNames.bind(locals);
+        assign(locals, css);
 
         export default css;
     `;
