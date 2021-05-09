@@ -19,7 +19,7 @@ We will keep active maintain.
 ## Install
 
 ```shell
-npm install -D class-names-loader
+npm install -D @ecomfe/class-names-loader
 ```
 
 ## Auto binding
@@ -49,7 +49,7 @@ A traditional webpack configuration looks like:
                 test: /\.css$/,
                 use: [
                     {
-                        loader: 'class-names-loader',
+                        loader: '@ecomfe/class-names-loader',
                         options: {
                             // options
                         },
@@ -91,7 +91,7 @@ This is especially useful when you create a custom build tool and want to encaps
 ```js
 // Build tool with class-names-loader and classnames installed locally
 {
-    loader: require.resolve('class-names-loader'),
+    loader: require.resolve('@ecomfe/class-names-loader'),
     options: {
         classNamesModule: require.resolve('classnames'),
     },
